@@ -9,13 +9,14 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `RFERL JS Interview`,
+    description: `Every day is a chance for a new beginning, a fresh start, and a renewed communion with ourselves and others. Embrace the opportunity to create a better tomorrow.`,
+    author: `@yellowgh0st`,
+    siteUrl: `https://github.com/yellowgh0st/rferl-js-interview`,
   },
   plugins: [
     `gatsby-plugin-image`,
+		`gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -28,8 +29,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `rferl-js-interview`,
+        short_name: `interview`,
         start_url: `/`,
         background_color: `#663399`,
         // This will impact how browsers show your PWA/website

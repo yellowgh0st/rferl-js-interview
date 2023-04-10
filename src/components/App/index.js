@@ -19,7 +19,7 @@ export const App = ({ children }) => {
 				display='flex'
 				flexDirection='column'
 				width='100%'
-				height='100vh'
+				height='calc(100vh - 6rem)'
 				maxWidth={defaults.layout.container.md.width}
 				padding={defaults.layout.container.md.padding}
 			>

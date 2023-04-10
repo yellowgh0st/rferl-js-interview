@@ -21,6 +21,7 @@ export const App = ({ children }) => {
 				width='100%'
 				height='100vh'
 				maxWidth={defaults.layout.container.md.width}
+				padding={defaults.layout.container.md.padding}
 			>
       	<Header siteTitle={title} />
 				{children}

@@ -2,11 +2,10 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
-import { Seo } from "../components"
+import { Todo, Seo } from "../components"
 
 const Index = () => (
 	<>
-		Show's here
 	</>
 )
 

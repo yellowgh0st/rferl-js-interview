@@ -3,10 +3,10 @@ import { Link } from "gatsby"
 
 export const Header = ({ siteTitle }) => (
   <header>
-    <Link
-      to="/"
+    <a
+		href="#"
     >
       {siteTitle}
-    </Link>
+    </a>
   </header>
 )

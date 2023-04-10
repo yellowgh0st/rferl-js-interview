@@ -1,11 +1,9 @@
 import * as React from "react"
-import { Link } from "gatsby"
+import MoreHorizIcon from "@mui/icons-material/MoreHoriz"
 
 export const Header = ({ siteTitle }) => (
   <header>
-    <a
-		href="#"
-    >
+    <a href="#">
       {siteTitle}
     </a>
   </header>

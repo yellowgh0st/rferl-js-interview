@@ -6,6 +6,7 @@ import { Todo, Seo } from "../components"
 
 const Index = () => (
 	<>
+		<Todo/>
 	</>
 )
 

@@ -1,14 +1,17 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import { Tags, Seo } from "../components"
 
-import { Todo, Seo } from "../components"
+const Index = ({ location }) => {
 
-const Index = () => (
+return (
 	<>
-		<Todo/>
+		<Tags
+			data={location.hash}
+		/>
 	</>
-)
+)}
 
 /**
  * Head export to define metadata for the page
